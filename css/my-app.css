@@ -1,0 +1,145 @@
+.page{
+    background:#fff!important;
+}
+
+
+.headerTitle{
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    padding: 0 15px;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .writer{
+    width: 90px;
+  }
+	.comWriter{
+		width: 110px;
+	}
+  .SatisfactionContent{
+    margin-bottom: 20px;
+  }
+  .Satisfaction{
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-align: center;
+  }
+  .Satisfaction li{
+    border: 1px solid #ddd;
+    display: inline-block;
+    text-align: center;
+    min-width: 60px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    font-size: 13px;
+  }
+  .select{
+    background: #007aff;
+    color: #fff;
+  }
+  .list-block ul ul{
+    padding:0px;
+  }
+  .SatisfactionTitle{
+      padding: 8px 15px 20px 15px ;
+  }
+ 
+  #newsContent{
+    width:93%;
+    height:210px;    
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    margin:0 auto;
+    padding: 5px;
+  }
+
+  
+
+  .ShowNewsSearchBar{
+    top:57px!important;
+  }
+
+  .searchNews .list-block{
+    margin:52px 0px 40px 0px; 
+  }
+
+
+  .searchCancelBtn {
+	color: #000;
+	width: 50px;
+	margin-right: 5%;
+	display: none;
+	text-align: center;
+}
+
+.submit{
+    width: 53%;
+    margin: 0 auto;
+    height: 34px;
+    line-height: 34px;
+		margin-bottom: 30px;
+}
+.searchbar{
+  background: #eee;
+}
+
+.resultContent{
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-align: center;
+  align-items: center;
+  margin-top: 90px;
+}
+
+.resultContent img{
+  height: 100px;
+  width: 100px;
+}
+.resultContent .resultTitle{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.resultContent .resultText{
+  font-size: 18px;
+  margin-top: 20px;
+  color: #6a6a6a;s
+}
+
+.list-block .item-title{
+  white-space: pre-wrap !important;
+}
+
+.operatorList{
+  width: 100%;
+  margin: 0px auto!important;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  -webkit-box-align: center;
+  flex-wrap: wrap;
+}
+.operatorList li{
+  border: 1px solid #ddd;
+  display: inline-block;
+  text-align: center;
+  min-width: 60px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin: 4px;
+}

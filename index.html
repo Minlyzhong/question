@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="format-detection" content="telephone=yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default">
+		<meta name="theme-color" content="#E32519">
+		<meta name="msapplication-tap-highlight" content="no">
+		<meta name="_navigation_color" content="#E32519">
+		<title>服务满意度评分</title>
+		<link rel="stylesheet" href="css/framework7.ios.css">
+		<link rel="stylesheet" href="css/framework7.css">
+		<link rel="stylesheet" href="css/framework7.ios.colors.css">
+		<link rel="stylesheet" href="css/my-app.css">
+		<link rel="stylesheet" href="css/toast.css">
+	
+	</head>
+
+	<body>
+		<div class="statusbar-overlay"></div>
+		<div class="panel-overlay"></div>
+
+		<div class="views">
+			<div class="view" id="mianview">
+				<div class="pages">
+					<div class="page" data-page="home/home">
+						<div class="page-content">
+							<div class="headerTitle">服务满意度评分</div>
+
+							<div class="list-block">
+								<ul>
+								  <li>
+									<a href="search.html" class="item-link item-content">
+										<div class="item-inner">
+											<div class="item-title">服务项目</div>
+											<div class="item-after item-label" id="memoName" style="text-overflow: ellipsis;overflow: hidden;display: block;">请选择事项</div>
+										</div>
+									</a>
+								  </li>
+								  <li>
+									<div class="SatisfactionContent">
+										<div class="">
+											<div class="item-title kp-label writer SatisfactionTitle" style="padding-top:10px;padding-bottom:10px;">办事员 :</div>
+											
+												<ul class="operatorList">
+													
+												</ul>
+											
+										</div>
+									</div> 
+									<!-- <div class="item-content">
+										<div class="item-inner">
+											<div class="item-title kp-label writer">办事员 : </div>
+											
+											
+
+											<div class="item-input operatorList">
+												
+											</div>
+										</div>
+									</div>  -->
+								  </li>
+								  <li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-title kp-label writer" >填报人 : </div>
+											<div class="item-input">
+												<input type="text" id="applicant" name="applicant" placeholder="请输入名字" />
+											</div>
+										</div>
+									</div> 
+								  </li>
+								  <li>
+									<div class="item-content">
+										<div class="item-inner">
+											<div class="item-title kp-label comWriter" >填报企业 : </div>
+											<div class="item-input">
+												<input type="text" id="applyCompany" name="applyCompany" placeholder="请输入企业名称" />
+											</div>
+										</div>
+									</div> 
+								  </li>
+								  <li>
+									<div class="SatisfactionContent">
+										<div class="">
+											<div class="item-title kp-label writer SatisfactionTitle" >满意度 : </div>
+											
+												<ul class="Satisfaction">
+													
+												</ul>
+											
+										</div>
+									</div> 
+								  </li>
+								  <li>
+										<div class="SatisfactionContent">
+												<div class="">
+													<div class="item-title kp-label writer SatisfactionTitle" >备注信息 : </div>
+													<div class="item-input" style="margin-left: -2px;">
+															<textarea id="newsContent" name="newsContent" placeholder="请输入备注内容" 
+															class="content" ></textarea>
+														</div>
+														
+												</div>
+											</div> 
+								  </li>
+								</ul>
+								
+							  </div>
+
+							 
+
+
+							  <a href="#" class="button active button-fill  submit">提交</a>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<script type="text/javascript" src="lib/lodash.js"></script>
+		<script type="text/javascript" src="js/framework7.js"></script>
+		<script type="text/javascript" src="js/toast.js"></script>
+		<script type="text/javascript" src="lib/zepto.min.js"></script>
+		<script data-main="app" src="lib/require.js"></script>
+	</body>
+</html>
